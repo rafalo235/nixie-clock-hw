@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AME40-12SMAZ
+D Aimtec AME40-12SMAZ AC-DC Converter 12V 40W
+K DC-DC Converter Aimtec
+F doc/AME40-MAZ.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -34,13 +34,13 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 1 2
 Title ""
 Date ""
 Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
+Comp "RO&JR"
+Comment1 "Rafał Olejniczak"
+Comment2 "Jakub Rakus"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -195,4 +195,10 @@ F 3 "" H 1100 3200 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	1100 3100 1100 3200
+$Sheet
+S 600  600  950  1000
+U 5814F4D4
+F0 "Power supply" 60
+F1 "power-supply.sch" 60
+$EndSheet
 $EndSCHEMATC
