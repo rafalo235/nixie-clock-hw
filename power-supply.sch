@@ -306,9 +306,7 @@ Connection ~ 8300 5450
 Connection ~ 7250 5450
 Connection ~ 5500 3900
 Wire Wire Line
-	6250 4850 6950 4850
-Text Label 6250 4850 0    60   ~ 0
-PWM_BRIGHT
+	1250 4850 6950 4850
 $Comp
 L D D?
 U 1 1 58170BE4
@@ -374,4 +372,6 @@ Text HLabel 9450 2450 2    60   Output ~ 0
 5VDC
 Text Notes 9300 1450 2    60   ~ 0
 TODO - scalak?
+Text HLabel 1250 4850 0    60   Input ~ 0
+BRIGHT_PWM
 $EndSCHEMATC
