@@ -1,0 +1,234 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:ttl_ieee
+LIBS:nixie-module-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 74141 U1
+U 1 1 5818A5B5
+P 4950 3700
+F 0 "U1" H 4950 3700 50  0000 C CNN
+F 1 "74141" H 5250 3100 50  0000 C CNN
+F 2 "" H 4950 3700 60  0001 C CNN
+F 3 "" H 4950 3700 60  0001 C CNN
+	1    4950 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GN-4P E1
+U 1 1 5818C77E
+P 6200 3700
+F 0 "E1" H 6725 3475 60  0000 C CNN
+F 1 "GN-4P" H 6625 3900 60  0000 C CNN
+F 2 "" H 6250 3700 60  0001 C CNN
+F 3 "" H 6250 3700 60  0001 C CNN
+	1    6200 3700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5550 3250 5850 3250
+Wire Wire Line
+	5550 3350 5850 3350
+Wire Wire Line
+	5550 3450 5850 3450
+Wire Wire Line
+	5550 3550 5850 3550
+Wire Wire Line
+	5550 3650 5850 3650
+Wire Wire Line
+	5550 3750 5850 3750
+Wire Wire Line
+	5550 3850 5850 3850
+Wire Wire Line
+	5550 3950 5850 3950
+Wire Wire Line
+	5550 4050 5850 4050
+Wire Wire Line
+	5550 4150 5850 4150
+$Comp
+L +200VDC #PWR01
+U 1 1 5818CED3
+P 5550 2500
+F 0 "#PWR01" V 5700 2550 60  0001 C CNN
+F 1 "+200VDC" H 5550 2800 60  0000 C CNN
+F 2 "" H 5550 2500 60  0001 C CNN
+F 3 "" H 5550 2500 60  0001 C CNN
+	1    5550 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 5818CF0F
+P 7000 2950
+F 0 "R1" V 7080 2950 50  0000 C CNN
+F 1 "100k" V 7000 2950 50  0000 C CNN
+F 2 "" V 6930 2950 50  0000 C CNN
+F 3 "" H 7000 2950 50  0000 C CNN
+	1    7000 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 3300 7000 3300
+Wire Wire Line
+	7000 3300 7000 3100
+Wire Wire Line
+	7000 2650 7000 2800
+Wire Wire Line
+	3150 2650 7000 2650
+Wire Wire Line
+	5550 2600 5550 2650
+Connection ~ 5550 2650
+$Comp
+L VCC #PWR02
+U 1 1 5818D793
+P 2350 2450
+F 0 "#PWR02" H 2350 2300 50  0001 C CNN
+F 1 "VCC" H 2350 2600 50  0000 C CNN
+F 2 "" H 2350 2450 50  0000 C CNN
+F 3 "" H 2350 2450 50  0000 C CNN
+	1    2350 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_02X05 P1
+U 1 1 5818D97C
+P 2900 3650
+F 0 "P1" H 2900 3950 50  0000 C CNN
+F 1 "CONN_02X05" H 2900 3350 50  0000 C CNN
+F 2 "" H 2900 2450 50  0000 C CNN
+F 3 "" H 2900 2450 50  0000 C CNN
+	1    2900 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 2650 3150 3450
+Wire Wire Line
+	2200 3450 2650 3450
+Wire Wire Line
+	2350 3450 2350 2450
+$Comp
+L GND #PWR03
+U 1 1 5818DE2C
+P 3250 4300
+F 0 "#PWR03" H 3250 4050 50  0001 C CNN
+F 1 "GND" H 3250 4150 50  0000 C CNN
+F 2 "" H 3250 4300 50  0000 C CNN
+F 3 "" H 3250 4300 50  0000 C CNN
+	1    3250 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 3750 3250 3750
+Wire Wire Line
+	3250 3750 3250 4300
+Wire Wire Line
+	3150 3850 3250 3850
+Connection ~ 3250 3850
+Wire Wire Line
+	2650 3750 2600 3750
+Wire Wire Line
+	2600 3750 2600 4050
+Wire Wire Line
+	2650 3850 2600 3850
+Connection ~ 2600 3850
+Wire Wire Line
+	2500 3550 2650 3550
+Wire Wire Line
+	2500 3650 2650 3650
+Wire Wire Line
+	3350 3550 3150 3550
+Wire Wire Line
+	3150 3650 3350 3650
+Text Label 2500 3550 0    60   ~ 0
+A
+Text Label 3350 3550 2    60   ~ 0
+B
+Text Label 3350 3650 2    60   ~ 0
+D
+Text Label 2500 3650 0    60   ~ 0
+C
+Wire Wire Line
+	4350 3550 4200 3550
+Wire Wire Line
+	4200 3650 4350 3650
+Wire Wire Line
+	4200 3750 4350 3750
+Wire Wire Line
+	4200 3850 4350 3850
+Text Label 4200 3550 0    60   ~ 0
+A
+Text Label 4200 3650 0    60   ~ 0
+B
+Text Label 4200 3750 0    60   ~ 0
+C
+Text Label 4200 3850 0    60   ~ 0
+D
+Wire Wire Line
+	2200 4050 3250 4050
+Connection ~ 3250 4050
+$Comp
+L PWR_FLAG #FLG04
+U 1 1 5818EF8B
+P 2200 4050
+F 0 "#FLG04" H 2200 4145 50  0001 C CNN
+F 1 "PWR_FLAG" H 2200 4230 50  0000 C CNN
+F 2 "" H 2200 4050 50  0000 C CNN
+F 3 "" H 2200 4050 50  0000 C CNN
+	1    2200 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PWR_FLAG #FLG05
+U 1 1 5818EFE3
+P 2200 3450
+F 0 "#FLG05" H 2200 3545 50  0001 C CNN
+F 1 "PWR_FLAG" H 2200 3630 50  0000 C CNN
+F 2 "" H 2200 3450 50  0000 C CNN
+F 3 "" H 2200 3450 50  0000 C CNN
+	1    2200 3450
+	0    -1   -1   0   
+$EndComp
+Connection ~ 2350 3450
+Connection ~ 2600 4050
+$EndSCHEMATC
