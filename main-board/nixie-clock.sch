@@ -441,4 +441,6 @@ Wire Wire Line
 	8900 3850 9500 3850
 Text Label 9500 3850 2    60   ~ 0
 BRIGHT_POT
+Text Notes 9600 3850 0    60   ~ 0
+Zamienić na EXTI?
 $EndSCHEMATC
