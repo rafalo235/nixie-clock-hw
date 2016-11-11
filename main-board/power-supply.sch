@@ -29,6 +29,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:stm32
+LIBS:sensors
 LIBS:nixie-clock-cache
 EELAYER 25 0
 EELAYER END
@@ -374,4 +375,39 @@ Text Notes 9300 1450 2    60   ~ 0
 TODO - scalak?
 Text HLabel 1250 4850 0    60   Input ~ 0
 BRIGHT_PWM
+$Comp
+L R R?
+U 1 1 58265B95
+P 9150 4650
+F 0 "R?" V 9230 4650 50  0000 C CNN
+F 1 "910k" V 9150 4650 50  0000 C CNN
+F 2 "" V 9080 4650 50  0000 C CNN
+F 3 "" H 9150 4650 50  0000 C CNN
+	1    9150 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 58265EBE
+P 9150 5150
+F 0 "R?" V 9230 5150 50  0000 C CNN
+F 1 "9k1" V 9150 5150 50  0000 C CNN
+F 2 "" V 9080 5150 50  0000 C CNN
+F 3 "" H 9150 5150 50  0000 C CNN
+	1    9150 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9150 4400 9150 4500
+Connection ~ 9150 4400
+Wire Wire Line
+	9150 4800 9150 5000
+Wire Wire Line
+	9150 5300 9150 5450
+Connection ~ 9150 5450
+Text HLabel 9450 4900 2    60   Output ~ 0
+200VSENSE
+Wire Wire Line
+	9150 4900 9450 4900
+Connection ~ 9150 4900
 $EndSCHEMATC

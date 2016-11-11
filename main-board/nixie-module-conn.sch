@@ -29,6 +29,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:stm32
+LIBS:sensors
 LIBS:nixie-clock-cache
 EELAYER 25 0
 EELAYER END

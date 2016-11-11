@@ -1,4 +1,4 @@
-update=2016-10-21 10:51:12
+update=2016-11-11 18:16:41
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,3 +59,4 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=C:/Program Files/KiCad/share/kicad/library/stm32
+LibName31=C:/Program Files/KiCad/share/kicad/library/sensors
