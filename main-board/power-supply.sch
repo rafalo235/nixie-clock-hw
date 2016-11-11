@@ -186,8 +186,6 @@ Wire Wire Line
 	1250 4850 6950 4850
 Wire Wire Line
 	5300 4400 6400 4400
-Text Notes 6250 4200 2    60   ~ 0
-Zabezpieczenie\nukładu 7805
 Text HLabel 9450 1600 2    60   Output ~ 0
 VDD
 Text HLabel 9450 3100 2    60   Output ~ 0
@@ -328,7 +326,7 @@ P 6900 2800
 F 0 "U?" H 7100 2600 60  0000 C CNN
 F 1 "ROM1205S" H 6925 3025 60  0000 C CNN
 F 2 "" H 6800 2825 60  0001 C CNN
-F 3 "" H 6800 2825 60  0001 C CNN
+F 3 "http://www.recom-power.com/pdf/Econoline/ROM.pdf" H 6800 2825 60  0001 C CNN
 	1    6900 2800
 	1    0    0    -1  
 $EndComp

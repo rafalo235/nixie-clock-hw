@@ -370,4 +370,12 @@ Wire Wire Line
 Wire Wire Line
 	6400 3000 6400 2900
 Connection ~ 5650 3000
+Wire Wire Line
+	7400 2700 7400 2450
+Wire Wire Line
+	7400 2450 9450 2450
+Wire Wire Line
+	7400 2900 7400 3100
+Wire Wire Line
+	7400 3100 9450 3100
 $EndSCHEMATC
