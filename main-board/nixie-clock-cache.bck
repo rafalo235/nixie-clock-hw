@@ -6,4 +6,10 @@ K DC-DC Converter Aimtec
 F doc/AME40-MAZ.pdf
 $ENDCMP
 #
+$CMP DTSN-12/33/0.9
+D DTSN-12 Nanoperm Common Mode Choke
+K Common mode choke Feryster nanoperm DTSN
+F doc/DTSN12.pdf
+$ENDCMP
+#
 #End Doc Library
