@@ -196,7 +196,7 @@ U 1 1 582656C6
 P 5650 3100
 F 0 "U2" H 5850 2900 60  0000 C CNN
 F 1 "ROM1205S" H 5675 3325 60  0000 C CNN
-F 2 "" H 5550 3125 60  0001 C CNN
+F 2 "footprint-local:SIP4" H 5550 3125 60  0001 C CNN
 F 3 "http://www.recom-power.com/pdf/Econoline/ROM.pdf" H 5550 3125 60  0001 C CNN
 	1    5650 3100
 	1    0    0    -1  
