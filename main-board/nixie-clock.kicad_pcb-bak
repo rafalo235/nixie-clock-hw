@@ -2,11 +2,11 @@
 
   (general
     (links 162)
-    (no_connects 161)
-    (area 54.840046 28.235 180.090002 127.26)
+    (no_connects 162)
+    (area 0 0 0 0)
     (thickness 1.6)
     (drawings 0)
-    (tracks 5)
+    (tracks 0)
     (zones 0)
     (modules 54)
     (nets 71)
@@ -1263,7 +1263,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_SMT_02x05 (layer F.Cu) (tedit 57CADE52) (tstamp 58399BE1)
-    (at 172.72 143.51)
+    (at 147.115001 45.175)
     (descr "SMT pin header")
     (tags "SMT pin header")
     (path /58191DB1/58193880)
@@ -1349,7 +1349,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_SMT_02x05 (layer F.Cu) (tedit 57CADE52) (tstamp 58399C1E)
-    (at 194.31 143.51)
+    (at 161.265001 45.175)
     (descr "SMT pin header")
     (tags "SMT pin header")
     (path /58191DB1/581938E3)
@@ -1435,7 +1435,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_SMT_02x05 (layer F.Cu) (tedit 57CADE52) (tstamp 58399C5B)
-    (at 113.03 143.51)
+    (at 158.195001 93.115)
     (descr "SMT pin header")
     (tags "SMT pin header")
     (path /581979CF/58193880)
@@ -1521,7 +1521,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_SMT_02x05 (layer F.Cu) (tedit 57CADE52) (tstamp 58399C98)
-    (at 135.89 143.51)
+    (at 144.045001 93.115)
     (descr "SMT pin header")
     (tags "SMT pin header")
     (path /581979CF/581938E3)
@@ -2153,7 +2153,7 @@
   )
 
   (module Housings_QFP:LQFP-48_7x7mm_Pitch0.5mm (layer F.Cu) (tedit 54130A77) (tstamp 58399DEC)
-    (at 151.13 121.92)
+    (at 112.185238 45.075)
     (descr "48 LEAD LQFP 7x7mm (see MICREL LQFP7x7-48LD-PL-1.pdf)")
     (tags "QFP 0.5")
     (path /5809D886)
@@ -2325,7 +2325,7 @@
   )
 
   (module Housings_SOIC:SOIC-16W_7.5x10.3mm_Pitch1.27mm (layer F.Cu) (tedit 574D96A0) (tstamp 58399E22)
-    (at 182.88 124.46)
+    (at 174.215001 45.325)
     (descr "16-Lead Plastic Small Outline (SO) - Wide, 7.50 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)")
     (tags "SOIC 1.27")
     (path /58191DB1/58191F22)
@@ -2392,7 +2392,7 @@
   )
 
   (module Housings_SOIC:SOIC-16W_7.5x10.3mm_Pitch1.27mm (layer F.Cu) (tedit 574D96A0) (tstamp 58399E46)
-    (at 123.19 124.46)
+    (at 171.145001 93.265)
     (descr "16-Lead Plastic Small Outline (SO) - Wide, 7.50 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)")
     (tags "SOIC 1.27")
     (path /581979CF/58191F22)
@@ -2486,11 +2486,5 @@
     (pad 2 thru_hole oval (at 0.7493 0) (size 1.50114 1.00076) (drill 0.59944 (offset 0.29972 0)) (layers *.Cu *.Mask)
       (net 4 "Net-(C2-Pad1)"))
   )
-
-  (segment (start 127.84 128.905) (end 127.84 141.81) (width 0.25) (layer F.Cu) (net 33) (status 400000))
-  (segment (start 133.35 144.78) (end 133.35 146.71) (width 0.25) (layer F.Cu) (net 33) (tstamp 583C8D98) (status 800000))
-  (segment (start 132.08 143.51) (end 133.35 144.78) (width 0.25) (layer F.Cu) (net 33) (tstamp 583C8D96))
-  (segment (start 129.54 143.51) (end 132.08 143.51) (width 0.25) (layer F.Cu) (net 33) (tstamp 583C8D94))
-  (segment (start 127.84 141.81) (end 129.54 143.51) (width 0.25) (layer F.Cu) (net 33) (tstamp 583C8D92))
 
 )
