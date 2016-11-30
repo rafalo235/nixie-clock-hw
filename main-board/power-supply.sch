@@ -125,7 +125,7 @@ Wire Wire Line
 Wire Wire Line
 	4050 4700 5150 4700
 Text HLabel 9250 1650 2    60   Output ~ 0
-VDD
+VDDOUT
 Text HLabel 9300 3400 2    60   Output ~ 0
 GND
 Text HLabel 8200 4700 2    60   Output ~ 0

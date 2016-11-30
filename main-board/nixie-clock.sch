@@ -237,7 +237,7 @@ Wire Wire Line
 	1100 2200 1100 2550
 Wire Wire Line
 	2650 850  3850 850 
-Text Label 2850 850  2    60   ~ 0
+Text Label 2650 850  0    60   ~ 0
 VDD
 Text Label 2850 1150 2    60   ~ 0
 GND
@@ -1004,7 +1004,7 @@ F 3 "" H 1700 5350 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	1300 4750 1300 4300
+	1300 4300 1300 4750
 Wire Wire Line
 	1700 5150 1700 4350
 Wire Wire Line
