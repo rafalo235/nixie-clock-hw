@@ -439,4 +439,5 @@ Connection ~ 6950 4700
 Wire Wire Line
 	6950 5300 6950 5750
 Connection ~ 6950 5750
+NoConn ~ 2650 4100
 $EndSCHEMATC
