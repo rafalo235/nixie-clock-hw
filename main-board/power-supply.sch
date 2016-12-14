@@ -58,9 +58,9 @@ L INDUCTOR L2
 U 1 1 581538C6
 P 5450 4700
 F 0 "L2" V 5400 4700 50  0000 C CNN
-F 1 "10mH" V 5550 4700 50  0000 C CNN
-F 2 "Choke_Axial_ThroughHole:Choke_Horizontal_RM25mm" H 5450 4700 50  0001 C CNN
-F 3 "" H 5450 4700 50  0000 C CNN
+F 1 "100uH" V 5550 4700 50  0000 C CNN
+F 2 "footprint-local:Neosid_Inductor_Sd8" H 5450 4700 50  0001 C CNN
+F 3 "http://www.tme.eu/pl/Document/4ff2ae81ca911b75713a1b32b7615e0b/kmp_2200r.pdf" H 5450 4700 50  0001 C CNN
 F 4 "5900-103-RC" V 5450 4700 60  0001 C CNN "Part no."
 	1    5450 4700
 	0    -1   -1   0   
@@ -83,7 +83,7 @@ U 1 1 58154490
 P 6450 4700
 F 0 "D2" H 6450 4800 50  0000 C CNN
 F 1 "UF4004" H 6450 4600 50  0000 C CNN
-F 2 "Diodes_ThroughHole:Diode_DO-41_SOD81_Horizontal_RM10" H 6450 4700 50  0001 C CNN
+F 2 "Diodes_ThroughHole:Diode_DO-41_SOD81_Vertical_AnodeUp" H 6450 4700 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/88755/uf4001.pdf" H 6450 4700 50  0001 C CNN
 	1    6450 4700
 	-1   0    0    1   
@@ -94,7 +94,7 @@ U 1 1 58154567
 P 7450 5150
 F 0 "C15" H 7475 5250 50  0000 L CNN
 F 1 "10u" H 7475 5050 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Axial_D13_L31_P38" H 7488 5000 50  0001 C CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D10_L20_P5" H 7488 5000 50  0001 C CNN
 F 3 "" H 7450 5150 50  0000 C CNN
 F 4 "TVX2F100MCD" H 7450 5150 60  0001 C CNN "Part no."
 	1    7450 5150
@@ -428,7 +428,7 @@ U 1 1 5838FF4A
 P 6950 5150
 F 0 "C20" H 6975 5250 50  0000 L CNN
 F 1 "100n" H 6975 5050 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1206_HandSoldering" H 6988 5000 50  0001 C CNN
+F 2 "Capacitors_SMD:C_1812_HandSoldering" H 6988 5000 50  0001 C CNN
 F 3 "" H 6950 5150 50  0000 C CNN
 	1    6950 5150
 	1    0    0    -1  
