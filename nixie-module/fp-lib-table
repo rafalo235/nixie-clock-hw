@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name nixie-module-footprint)(type KiCad)(uri "$(KIPRJMOD)\\nixie-module-footprint.pretty")(options "")(descr ""))
+)
