@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source D:/Kicad-workspace/nixie-clock-hw/nixie-module/nixie-module.sch)
-    (date "2016-12-16 11:06:35")
+    (date "2016-12-16 13:09:06")
     (tool "Eeschema 4.0.4-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -35,7 +35,7 @@
       (tstamp 5818CF0F))
     (comp (ref P1)
       (value CONN_02X05)
-      (footprint Pin_Headers:Pin_Header_Angled_2x05)
+      (footprint nixie-module-footprint:Pin_Header_Angled_2x05)
       (libsource (lib conn) (part CONN_02X05))
       (sheetpath (names /) (tstamps /))
       (tstamp 5818D97C))
@@ -134,10 +134,10 @@
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\device.lib"))
     (library (logical conn)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\conn.lib"))
-    (library (logical ttl_ieee)
-      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\ttl_ieee.lib"))
     (library (logical nixie-module-cache)
-      (uri D:\Kicad-workspace\nixie-clock-hw\nixie-module\nixie-module-cache.lib)))
+      (uri D:\Kicad-workspace\nixie-clock-hw\nixie-module\nixie-module-cache.lib))
+    (library (logical ttl_ieee)
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\ttl_ieee.lib")))
   (nets
     (net (code 1) (name /C)
       (node (ref U1) (pin 7))
