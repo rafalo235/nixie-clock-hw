@@ -61,7 +61,7 @@ U 1 1 5818C77E
 P 6200 3700
 F 0 "E1" H 6725 3475 60  0000 C CNN
 F 1 "GN-4P" H 6625 3900 60  0000 C CNN
-F 2 "nixie-module-footprint:b13b-valve-socket" H 6250 3700 60  0001 C CNN
+F 2 "nixie-module-footprint:gn-4p-gniazdo" H 6250 3700 60  0001 C CNN
 F 3 "" H 6250 3700 60  0001 C CNN
 	1    6200 3700
 	0    1    1    0   
@@ -102,7 +102,7 @@ L R R1
 U 1 1 5818CF0F
 P 7000 2950
 F 0 "R1" V 7080 2950 50  0000 C CNN
-F 1 "100k" V 7000 2950 50  0000 C CNN
+F 1 "47k" V 7000 2950 50  0000 C CNN
 F 2 "Resistors_SMD:R_1812_HandSoldering" V 6930 2950 50  0001 C CNN
 F 3 "" H 7000 2950 50  0000 C CNN
 	1    7000 2950
