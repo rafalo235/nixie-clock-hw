@@ -136,7 +136,7 @@ U 1 1 5818D97C
 P 2900 3650
 F 0 "P1" H 2900 3950 50  0000 C CNN
 F 1 "CONN_02X05" H 2900 3350 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_2x05" H 2900 2450 50  0001 C CNN
+F 2 "nixie-module-footprint:Pin_Header_Angled_2x05" H 2900 2450 50  0001 C CNN
 F 3 "" H 2900 2450 50  0000 C CNN
 	1    2900 3650
 	1    0    0    -1  
