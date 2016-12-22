@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:nixie-clock-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -28,10 +29,8 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:stm32
-LIBS:sensors
 LIBS:nixie-clock-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -167,7 +166,7 @@ $EndComp
 Wire Wire Line
 	1700 3350 1700 3250
 $Comp
-L Battery BT1
+L Battery-RESCUE-nixie-clock BT1
 U 1 1 580A0D26
 P 1100 3350
 F 0 "BT1" H 1200 3400 50  0000 L CNN

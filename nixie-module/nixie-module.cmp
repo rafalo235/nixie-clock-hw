@@ -1,0 +1,59 @@
+Cmp-Mod V01 Created by PcbNew   date = czw, 22 gru 2016, 10:02:12
+
+BeginCmp
+TimeStamp = 5853DE2D
+Path = /5818D97C
+Reference = P1;
+ValeurCmp = CONN_02X05;
+IdModule  = Pin_Headers:Pin_Header_Straight_2x05;
+EndCmp
+
+BeginCmp
+TimeStamp = 5853BD92
+Path = /5818A5B5
+Reference = U1;
+ValeurCmp = 74141;
+IdModule  = Housings_DIP:DIP-16_W7.62mm_LongPads;
+EndCmp
+
+BeginCmp
+TimeStamp = 5853BD73
+Path = /5818CF0F
+Reference = R1;
+ValeurCmp = 47k;
+IdModule  = Resistors_SMD:R_1812_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5853BD13
+Path = /5818C77E
+Reference = E1;
+ValeurCmp = GN-4P;
+IdModule  = nixie-module-footprint:gn-4p-gniazdo;
+EndCmp
+
+BeginCmp
+TimeStamp = 5853BD02
+Path = /5832D96B
+Reference = C1;
+ValeurCmp = 100n;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 58592297
+Path = 
+Reference = REF**;
+ValeurCmp = MountingHole_3.2mm_M3;
+IdModule  = Mounting_Holes:MountingHole_3.2mm_M3;
+EndCmp
+
+BeginCmp
+TimeStamp = 5859228E
+Path = 
+Reference = REF**;
+ValeurCmp = MountingHole_3.2mm_M3;
+IdModule  = Mounting_Holes:MountingHole_3.2mm_M3;
+EndCmp
+
+EndListe
